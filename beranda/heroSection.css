@@ -1,0 +1,257 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+* {
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Lato", sans-serif;
+}
+a {
+  text-anchor: none;
+}
+
+.hero-section {
+  width: 100%;
+  height: auto;
+  background-image: url("../image1.png");
+  background-repeat: no-repeat;
+  /* background-size: contain; */
+  background-size: cover;
+  color: white;
+}
+
+.content {
+  /* width: 100%; */
+  margin-left: 70px;
+  padding-top: 250px;
+}
+.content2 {
+  display: none;
+}
+.button-section {
+  /* width: 100%; */
+  margin-top: 55px;
+  display: flex;
+  flex-direction: row;
+  /* margin-bottom: 70px; */
+  padding-bottom: 70px;
+}
+.desc {
+  width: 40%;
+}
+.group-1 {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  /* margin-left: ; */
+  /* margin-bottom: 90px; */
+}
+.group-2 {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.myButton {
+  background-color: #0f1e93;
+  border-radius: 28px;
+  border: 1px solid #0f1e93;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 17px;
+  padding: 11px 19px;
+  text-decoration: none;
+}
+.myButton2 {
+  background-color: #22282a;
+  border-radius: 28px;
+  border: 1px solid #22282a;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 17px;
+  padding: 10px 50px;
+  text-decoration: none;
+  margin-left: 20px;
+}
+.myButton3 {
+  background-color: transparent;
+  border-radius: 28px;
+  border: 1px solid #c1c2c4;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 17px;
+  padding: 14px 10px;
+  text-decoration: none;
+  margin-left: 20px;
+}
+.myButton4 {
+  background-color: transparent;
+  border-radius: 28px;
+  border: 1px solid #c1c2c4;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 17px;
+  padding: 14px 15px;
+  text-decoration: none;
+  /* margin-left: 20px; */
+  margin-right: 50px;
+}
+.svg3 {
+  display: none;
+}
+@media screen and (max-width: 640px) {
+  .hero-section {
+    width: 100%;
+    height: auto;
+    background-image: url("../image1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* background-size: cover; */
+    color: white;
+  }
+  .content {
+    width: 100%;
+    display: block;
+    padding-top: 60px;
+    font-size: 10px;
+    margin-left: 40px;
+  }
+  .button-section {
+    margin-top: 20px;
+  }
+  .svg2 {
+    display: none;
+  }
+  .svg3 {
+    display: block;
+  }
+  .desc {
+    bottom: 40px;
+    width: 80%;
+  }
+  .myButton {
+    padding: 8px 8px;
+    font-size: 11px;
+  }
+  .myButton2 {
+    padding: 3px 3px;
+    font-size: 4px;
+  }
+  .myButton3 {
+    padding: 8px 8px;
+    font-size: 8px;
+  }
+  .myButton4 {
+    padding: 8px 8px;
+    font-size: 8px;
+    /* margin-left: 210px; */
+  }
+}
+@media screen and (max-width: 768px) {
+  .hero-section {
+    width: 100%;
+    height: auto;
+    background-image: url("../image1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* background-size: cover; */
+    color: white;
+  }
+  .content {
+    width: 100%;
+    display: block;
+    padding-top: 60px;
+    font-size: 10px;
+    margin-left: 40px;
+  }
+  .button-section {
+    margin-top: 20px;
+  }
+  .svg2 {
+    display: none;
+  }
+  .svg3 {
+    display: block;
+  }
+  .desc {
+    bottom: 40px;
+    width: 80%;
+  }
+  .myButton {
+    padding: 8px 8px;
+    font-size: 11px;
+  }
+  .myButton2 {
+    padding: 3px 3px;
+    font-size: 4px;
+  }
+  .myButton3 {
+    padding: 8px 8px;
+    font-size: 8px;
+  }
+  .myButton4 {
+    padding: 8px 8px;
+    font-size: 8px;
+    /* margin-left: 210px; */
+  }
+}
+@media screen and (max-width: 1024px) {
+  .hero-section {
+    width: 100%;
+    height: auto;
+    background-image: url("../image1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* background-size: cover; */
+    color: white;
+  }
+  .content {
+    width: 100%;
+    display: block;
+    padding-top: 60px;
+    font-size: 10px;
+    margin-left: 40px;
+  }
+  .button-section {
+    margin-top: 20px;
+  }
+  .svg2 {
+    display: none;
+  }
+  .svg3 {
+    display: block;
+  }
+  .desc {
+    bottom: 40px;
+    width: 80%;
+  }
+  .myButton {
+    padding: 8px 8px;
+    font-size: 11px;
+  }
+  .myButton2 {
+    padding: 3px 3px;
+    font-size: 4px;
+  }
+  .myButton3 {
+    padding: 8px 8px;
+    font-size: 8px;
+  }
+  .myButton4 {
+    padding: 8px 8px;
+    font-size: 8px;
+    /* margin-left: 210px; */
+  }
+}

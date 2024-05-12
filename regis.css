@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+html { 
+    background: url('regisBackground.jpeg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Lato', sans-serif;
+}
+.container {
+    width: 450px;
+    height: 650px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 70px;
+    margin-bottom: 40px;
+    background-color: #181A1CD6;
+}
+.logo {
+    margin-top: 30px;
+}
+.title {
+    
+    color: white;
+}
+.title h1 {
+    margin-bottom: 0;
+}
+.title p {
+    margin-top: 3px;
+}
+
+.form {
+    text-align: left;
+    width: 85%;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.form p {
+    margin-bottom: 5px;
+    color: white;
+}
+.custom_input {
+	display: flex;
+	align-items: center;
+	position: relative;
+	max-width: 100%;
+}
+
+.input {
+	font-size: 18px;
+	padding: 5px;
+	width: 100%;
+	padding-left: 15px;
+	outline: none;
+	background: #00000000;
+	color: #E7E3FC3B;
+	border: 1px solid #E7E3FC3B;
+	border-radius: 20px;
+}
+.password {
+    margin-top: 35px;
+}
+.input::placeholder {
+	color: #E7E3FC3B;
+    font-size: 15px;
+}
+.password .svg_icon {
+	position: absolute;
+	right: 15px;
+	fill: #8D8D8D;
+	width: 18px;
+	height: 18px;
+}
+.register {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.register .forgot-pass {
+    color: #FFFF;
+}
+.register p {
+    font-size: 13px;
+    color: #E7E3FC3B;
+}
+.register p span a {
+    text-decoration: none;
+    color: #ffff;
+    font-size:13px;
+}
+
+@media only screen and (max-width: 375px) {
+    .container {
+        width: 95%;
+        height: 600px;
+    }
+  }
+@media only screen and (max-width: 426px) {
+    .container {
+        width: 95%;
+        height: 600px;
+    }
+}
+
+.myButton {
+	background-color:#3D4142;
+	border-radius:28px;
+	border:1px solid #E7E3FC3B;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:17px;
+	padding:15px;
+    padding-left: 3px;
+    width: 100%;
+	text-decoration:none;
+    text-align: center;
+}
+
+.login-button {
+    margin-top: 21px;
+}
+
+.google-btn .myButton {
+    background-color:#00000000;
+	border-radius:28px;
+	border:1px solid #E7E3FC3B;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:17px;
+	padding:15px;
+    padding-left: 3px;
+    width: 100%;
+	text-decoration:none;
+    text-align: center;
+}
+.google-btn p {
+    margin-left: 1000px;
+}
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
